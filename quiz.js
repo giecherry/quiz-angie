@@ -105,6 +105,7 @@ function showResults() {
     document.getElementById('final-score').textContent = `${score}/${questions.length}`;
 }
 
+
 let timerInterval;
 const timeLimit = 8; 
 const progressBarWidth = 100; 
